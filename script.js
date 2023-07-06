@@ -11,10 +11,10 @@ function soma() {
     var valor2 = document
         .getElementById("inputValor2")
         .value;
-        
+
     var soma = valor + valor2;
     document
         .getElementById("resultado")
-        console.log = "A soma é: " + soma;
+        .textContent = "A soma é: " + soma;
 }
 
